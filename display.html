@@ -8,22 +8,19 @@
 </head>
 <body>
   <div class="container">
-    <header class="header">
-      <button id="goBackBtn" class="btn-exit">Go Back</button>
-      <h1>Captured Image</h1>
-    </header>
-    
-    <main>
-      <!-- Display the captured image -->
-      <img id="capturedImage" alt="Captured Image" style="max-width:100%; border:1px solid #ddd; border-radius: 5px;">
-      
-      <!-- Buttons for Save, Retake, Gallery -->
+    <div class="top-container">
+        <button id="goBackBtn" class="btn-exit">Go Back</button>
+        <h1>Captured Image</h1>
+    </div>
+    <div class="middle-container">
+      <img id="capturedImage" alt="Captured Image">
+    </div>
+    <div class="bottom-container">
       <button id="saveBtn" class="btn-primary">Save</button>
       <button id="retakeBtn" class="btn-primary">Retake</button>
       <button id="galleryBtn" class="btn-primary">Gallery</button>
-    </main>
+    </div>
   </div>
-
   <script src="display.js"></script>
 </body>
 </html>

@@ -14,7 +14,7 @@ window.onload = function() {
     });
   }
 
-  // Go back to previous page (capture or display page)
+  
   document.getElementById('goBackBtn').addEventListener('click', () => {
     const previousPage = sessionStorage.getItem('previousPage');
     if (previousPage === 'display') {
